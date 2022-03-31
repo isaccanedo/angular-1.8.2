@@ -61,8 +61,7 @@ Ao contrário de outros frameworks, não há necessidade de herdar de tipos prop
   </body>
 </html>
 ```
-**todo.css**
-
+**todo.js**
 ```
 angular.module('todoApp', [])
   .controller('TodoListController', function() {
@@ -92,4 +91,12 @@ angular.module('todoApp', [])
       });
     };
   });
+```
+
+**todo.css**
+```
+.done-true {
+  text-decoration: line-through;
+  color: grey;
+}
 ```
